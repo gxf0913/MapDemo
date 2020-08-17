@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="rq5i0m0r">
+  <resources>
+    <component id="7xjs0" name="map_panel.xml" path="/组件/"/>
+    <image id="oelw1" name="底图.png" path="/素材/" scale="9grid" scale9grid="12,12,24,24"/>
+    <component id="oelw2" name="room_btn.xml" path="/组件/"/>
+    <component id="jd9h3" name="floor1_corridor_btn.xml" path="/组件/"/>
+    <component id="jd9h4" name="floor2_corridor_btn.xml" path="/组件/"/>
+    <component id="igrr5" name="common_btn.xml" path="/组件/"/>
+    <component id="igrr7" name="map.xml" path="/组件/" exported="true"/>
+    <component id="jry88" name="initial_hud.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2436,1125">
+  <displayList>
+    <component id="n0_jry8" name="open_map_btn" src="igrr5" fileName="组件/common_btn.xml" xy="2300,40" size="100,100"/>
+  </displayList>
+</component>

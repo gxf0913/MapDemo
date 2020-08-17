@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="363,154" pivot="0.5,0.5" opaque="false" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <graph id="n4_jd9h" name="n4" xy="0,0" size="363,154" type="polygon" lineSize="0" fillColor="#ffcccccc" points="0,0,363,0,363,154,300,154,300,51,0,51">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n5_jd9h" name="n5" xy="175,16" size="29,19" fontSize="12" letterSpacing="1" text="走廊"/>
+  </displayList>
+  <Button/>
+</component>

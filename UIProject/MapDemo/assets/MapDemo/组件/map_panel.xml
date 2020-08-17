@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,570" bgColor="#999999">
+  <displayList>
+    <graph id="n16_jd9h" name="n16" xy="0,0" size="800,570" type="rect" lineSize="0" fillColor="#ff999999"/>
+    <component id="n3_oelw" name="floor1_110KV_switch_room" src="oelw2" fileName="组件/room_btn.xml" xy="150,50" size="164,248">
+      <relation target="n4_oelw" sidePair="rightext-left,topext-top"/>
+      <relation target="n6_jd9h" sidePair="rightext-left,bottomext-bottom"/>
+      <Button title="110KV开关室" icon="ui://rq5i0m0roelw1"/>
+    </component>
+    <component id="n4_oelw" name="floor1_10KV_switch_room" src="oelw2" fileName="组件/room_btn.xml" xy="311,50" size="190,94">
+      <relation target="n5_jd9h" sidePair="rightext-left,topext-top,bottomext-bottom"/>
+      <relation target="n3_oelw" sidePair="topext-top,leftext-right"/>
+      <Button title="10KV开关室" icon="ui://rq5i0m0roelw1"/>
+    </component>
+    <component id="n5_jd9h" name="floor1_tool_room" src="oelw2" fileName="组件/room_btn.xml" xy="498,50" size="179,94">
+      <relation target="n4_oelw" sidePair="topext-top,bottomext-bottom,leftext-right"/>
+      <Button title="工具间"/>
+    </component>
+    <component id="n6_jd9h" name="floor1_main_transformer_room_1" src="oelw2" fileName="组件/room_btn.xml" xy="311,195" size="153,103">
+      <relation target="n3_oelw" sidePair="bottomext-bottom,leftext-right"/>
+      <relation target="n7_jd9h" sidePair="rightext-left,topext-top,bottomext-bottom"/>
+      <Button title="1号主变室"/>
+    </component>
+    <component id="n7_jd9h" name="floor1_main_transformer_room_2" src="oelw2" fileName="组件/room_btn.xml" xy="461,195" size="153,103">
+      <relation target="n6_jd9h" sidePair="topext-top,bottomext-bottom,leftext-right"/>
+      <relation target="n9_jd9h" sidePair="rightext-right"/>
+      <Button title="2号主变室"/>
+    </component>
+    <component id="n8_jd9h" name="floor2_capacitor_room_1" src="oelw2" fileName="组件/room_btn.xml" xy="150,355" size="157,110">
+      <relation target="" sidePair="left-left"/>
+      <relation target="n10_jd9h" sidePair="rightext-left,topext-top,bottomext-bottom"/>
+      <Button title="1号电容室"/>
+    </component>
+    <component id="n10_jd9h" name="floor2_capacitor_room_2" src="oelw2" fileName="组件/room_btn.xml" xy="303,355" size="157,110">
+      <relation target="n8_jd9h" sidePair="topext-top,bottomext-bottom,leftext-right"/>
+      <relation target="n9_jd9h" sidePair="rightext-left,topext-top,bottomext-bottom"/>
+      <Button title="2号电容室"/>
+    </component>
+    <component id="n9_jd9h" name="floor2_capacitor_room_3" src="oelw2" fileName="组件/room_btn.xml" xy="457,355" size="157,110">
+      <relation target="n10_jd9h" sidePair="topext-top,bottomext-bottom,leftext-right"/>
+      <relation target="n7_jd9h" sidePair="rightext-right"/>
+      <Button title="三号电容室"/>
+    </component>
+    <text id="n11_jd9h" name="n11" xy="40,151" size="94,42" fontSize="30" text="一楼："/>
+    <text id="n12_jd9h" name="n12" xy="40,387" size="94,42" fontSize="30" text="二楼："/>
+    <component id="n14_jd9h" name="floor1_corridor_btn" src="jd9h3" fileName="组件/floor1_corridor_btn.xml" xy="314,144" size="363,154"/>
+    <component id="n15_jd9h" name="floor2_corridor_btn" src="jd9h4" fileName="组件/floor2_corridor_btn.xml" xy="150,465" size="464,50"/>
+    <component id="n18_jry8" name="close_btn" src="igrr5" fileName="组件/common_btn.xml" xy="728,15">
+      <Button title="Close" titleFontSize="17"/>
+    </component>
+  </displayList>
+</component>

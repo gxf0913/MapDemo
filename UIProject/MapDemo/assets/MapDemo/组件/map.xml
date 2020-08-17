@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2436,1125">
+  <displayList>
+    <component id="n0_igrr" name="map" src="7xjs0" fileName="组件/map_panel.xml" xy="818,277">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

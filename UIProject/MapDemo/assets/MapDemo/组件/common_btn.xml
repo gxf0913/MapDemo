@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,50" extention="Button">
+  <displayList>
+    <graph id="n0_igrr" name="n0" xy="0,0" size="50,50" type="eclipse" lineSize="0" fillColor="#ff666666">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n1_igrr" name="title" xy="2,10" size="46,29" fontSize="20" color="#ffffff" text="MAP">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>
