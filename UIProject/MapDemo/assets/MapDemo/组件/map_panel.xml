@@ -44,7 +44,9 @@
     <text id="n11_jd9h" name="n11" xy="40,151" size="94,42" fontSize="30" text="一楼："/>
     <text id="n12_jd9h" name="n12" xy="40,387" size="94,42" fontSize="30" text="二楼："/>
     <component id="n14_jd9h" name="floor1_corridor_btn" src="jd9h3" fileName="组件/floor1_corridor_btn.xml" xy="314,144" size="363,154"/>
-    <component id="n15_jd9h" name="floor2_corridor_btn" src="jd9h4" fileName="组件/floor2_corridor_btn.xml" xy="150,465" size="464,50"/>
+    <component id="n15_jd9h" name="floor2_corridor_btn" src="jd9h4" fileName="组件/floor2_corridor_btn.xml" xy="150,465" size="464,50">
+      <relation target="n10_jd9h" sidePair="top-bottom"/>
+    </component>
     <component id="n18_jry8" name="close_btn" src="igrr5" fileName="组件/common_btn.xml" xy="728,15">
       <Button title="Close" titleFontSize="17"/>
     </component>
